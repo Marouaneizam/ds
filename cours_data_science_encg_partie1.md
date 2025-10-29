@@ -1,7 +1,7 @@
 # COURS DE SCIENCE DES DONNÉES
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
 MArouane IZAM
-<img src="IZAM_MAROUANE_CAC2.jpeg" style="height:264px;margin-right:232px"/>
+<img src="IZAM_MAROUANE_CAC2.jpg" style="height:264px;margin-right:232px"/>
 ---
 
 # PARTIE 1 : FONDAMENTAUX DE LA SCIENCE DES DONNÉES
