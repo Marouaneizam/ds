@@ -86,4 +86,4 @@ L’analyse de ce dataset revêt un **intérêt pratique majeur** pour le domain
 - **Améliorer le rendement des campagnes téléphoniques**, en réduisant le temps et le coût de contact,  
 - **Fournir des recommandations stratégiques** basées sur les données, aidant à la prise de décision,  
 - Et de manière plus générale, **illustrer l’impact du machine learning** dans le secteur financier, notamment dans la prédiction du comportement client.  
-<img src="GRAPHE1_.JPG" style="height:264px;margin-right:232px"/>
+<img src="GRAPHE1_.PNG" style="height:264px;margin-right:232px"/>
