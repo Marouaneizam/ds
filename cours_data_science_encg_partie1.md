@@ -186,7 +186,7 @@ print(df.info())
 print(df.describe())
 
 # Statistiques pour une colonne spécifique
-colonne = df['Value']  # Adapter selon vos données
+colonne = df['Value']  # Adapter selon vos données *************************le champ "value" est l'objet de l'analyse
 
 print(f"Moyenne: {colonne.mean():.2f}")
 print(f"Médiane: {colonne.median():.2f}")
