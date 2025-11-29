@@ -49,8 +49,17 @@ warnings.filterwarnings("ignore")
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+Ce bloc de code me permet d’importer les bibliothèques essentielles dont j’ai besoin pour réaliser mon analyse de données automobile.
+
+pandas (pd) : j’utilise cette bibliothèque pour charger mon dataset et manipuler mes données (par exemple les caractéristiques des voitures).
+
+numpy (np) : elle me sert à effectuer des calculs numériques nécessaires lors de la préparation de mes données.
+
+matplotlib (plt) et seaborn (sns) : je m’en sers pour créer des visualisations afin d’explorer mon dataset, analyser mes variables, comprendre les tendances et identifier des relations entre les caractéristiques automobiles.
+
+warnings.filterwarnings("ignore") : j’utilise cette instruction pour masquer les avertissements non importants et garder mon notebook clair et lisible.
+
+Ainsi, ce bloc initialise mon environnement d’analyse, indispensable pour la préparation de mes données et la construction de mon futur modèle de prédiction automobile.
 
 ### 💻 Cellule de Code 2
 
