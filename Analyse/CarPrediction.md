@@ -70,8 +70,8 @@ df
 
 #### 🧠 Explication du code
 
-Cette cellule charge le dataset depuis un fichier externe afin de le
-transformer en DataFrame pour l'analyse.
+J’utilise pd.read_csv() pour charger mon fichier contenant les données automobiles.
+La variable df devient mon tableau principal, et l’afficher me permet de voir immédiatement la structure et le contenu de mon dataset.
 
 ### 💻 Cellule de Code 3
 
