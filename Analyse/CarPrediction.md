@@ -42,9 +42,9 @@ Une fois les données prêtes, j’entraîne plusieurs modèles de régression (
 
 [Retour au Sommaire](#sommaire)
 
-## 3. Préparation de l’Environnement et Chargement des Données
+## 3. Preparation de Environnement et Chargement des Données
 
-### 3.1. Importation des bibliothèques
+### 3.1. Importation des bibliotheques
 ### 💻 Cellule de Code 1
 
 ``` python
@@ -97,7 +97,7 @@ df.shape
 
 J’utilise df.shape pour connaître le nombre de lignes et de colonnes dans mon dataset.
 
-### 3.4. Vérification et suppression des doublons et valeurs manquantes
+### 3.4. Verification et suppression des doublons et valeurs manquantes
 ### 💻 Cellule de Code 4
 
 ``` python
