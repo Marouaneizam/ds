@@ -81,8 +81,7 @@ df.shape
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J’utilise df.shape pour connaître le nombre de lignes et de colonnes dans mon dataset.
 
 ### 💻 Cellule de Code 4
 
@@ -93,8 +92,7 @@ df.duplicated().sum()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J’utilise cette commande pour compter combien de lignes sont dupliquées dans mon dataset.
 
 ### 💻 Cellule de Code 5
 
@@ -105,8 +103,7 @@ df=df.drop_duplicates()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J’utilise drop_duplicates() pour supprimer toutes les lignes répétées dans mon dataset.
 
 ### 💻 Cellule de Code 6
 
@@ -117,8 +114,7 @@ df.isnull().sum()
 
 #### 🧠 Explication du code
 
-Cette instruction permet d'inspecter les valeurs manquantes dans le
-dataset pour préparer le nettoyage.
+J’utilise cette commande pour compter le nombre de valeurs manquantes dans chaque colonne de mon dataset.
 
 ### 💻 Cellule de Code 7
 
@@ -128,8 +124,15 @@ df.info()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J’utilise df.info() pour obtenir un résumé complet de mon dataset :
+
+le nombre de lignes,
+
+le nombre de colonnes,
+
+le type de chaque variable,
+
+la présence ou non de valeurs manquantes.
 
 ### 💻 Cellule de Code 8
 
