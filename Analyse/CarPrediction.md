@@ -2,7 +2,7 @@
 
 <img src="ENCGS.png" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;">
 
-# <p align="center">Marouane IZAM 23009631</p>
+# <p style="text-align: center; color: #152E5C;">Marouane IZAM 23009631</p>
 
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
