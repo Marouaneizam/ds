@@ -22,8 +22,8 @@ tout pour la modélisation.
 ## **Sommaire Détaillé**
 
 * [1. Introduction](#1-introduction) -- Présentation du thème et du contexte
-* [2. Description du notebook](#2-descriptiondunotebook) -- Structure et objectifs
-* [3. Analyse et préparation des données](#3-analyseetpréparationdesdonnées)
+* [2. Description du notebook](#2-description-du-notebook) -- Structure et objectifs
+* [3. Analyse et préparation des données](#3-analyse-etpréparation-des-données)
     - Chargement du dataset
     - Nettoyage et traitement des valeurs manquantes
     - Encodage des variables catégorielles
