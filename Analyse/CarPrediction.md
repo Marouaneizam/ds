@@ -199,8 +199,6 @@ plt.show()
 
 Afin d'évaluer la répartition de ma variable cible (Price_USD), j'ai généré un histogramme complété par une estimation de densité (KDE) en utilisant la librairie Seaborn. Cette visualisation graphique est essentielle pour que je puisse identifier la forme de ma distribution (symétrique, asymétrique) et détecter la présence éventuelle de valeurs aberrantes, informations qui influenceront mes choix de prétraitement et de modélisation.
 
-<img src="G1.png" alt="Alt Text" width="300" height="150" style="display: block; margin: 0 auto;">
-
 ### 💻 Cellule de Code 13
 
 ``` python
