@@ -1,5 +1,7 @@
 # École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
 
+<img src="G1.png" alt="Alt Text" width="300" height="150" style="display: block; margin: 5 auto;">
+
 # **Projet : Analyse de Données et Modélisation pour la Prédiction Automobile**
 
 ## **Introduction Générale**
