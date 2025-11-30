@@ -1,10 +1,10 @@
-# École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
+# <p align="center">École Nationale de Commerce et de Gestion (ENCG)-S7 </p>
 
 <img src="ENCGS.png" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;">
 
 # <p align="center">Marouane IZAM 23009631</p>
 
-# **Projet : Analyse de Données et Modélisation pour la Prédiction Automobile**
+# <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
 ## **Introduction Générale**
 
