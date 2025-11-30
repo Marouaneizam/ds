@@ -42,7 +42,7 @@ Une fois les données prêtes, j’entraîne plusieurs modèles de régression (
 
 [Retour au Sommaire](#sommaire)
 
-## 3. Preparation de Environnement et Chargement des Données
+## 3. Preparation des donnees
 
 ### 3.1. Importation des bibliotheques
 ### 💻 Cellule de Code 1
