@@ -31,13 +31,13 @@ tout pour la modélisation.
 * [4. Explication détaillée de chaque cellule de code](#4-explication_détaillée_de_chaque_cellule_de_code)
 * [5. Conclusion](#5-conclusion) -- Synthèse de l'analyse et implications
 
-## **Description du Notebook**
+## 2. Description du notebook
 
 Le notebook contient une succession de cellules de code et de texte
 visant à préparer les données étape par étape. Chaque cellule est
 reproduite ci‑dessous accompagnée d'une explication complète.
 
-## **Explications Détaillées des Cellules**
+## 4. Explication détaillée de chaque cellule de code
 
 ### 💻 Cellule de Code 1
 
@@ -665,7 +665,7 @@ print("KNN models' average R2 score:", np.mean(knn_scores))
 
 J'ai conclu ma phase de modélisation en utilisant la technique robuste de la validation croisée K-Fold pour obtenir une évaluation plus fiable et moins biaisée de la performance de mes modèles.Préparation : J'ai initialisé l'objet KFold avec $k=3$ plis (n_splits=3), ce qui signifie que je divise mon jeu de données en trois segments, entraînant et testant chacun mon modèle trois fois. J'ai également ré-encodé mes variables catégorielles (X_cv_encoded) sur l'ensemble complet des données (X) avant la validation croisée.Évaluation : J'ai ensuite appliqué la fonction cross_val_score pour évaluer mes trois modèles (Régression Linéaire, Arbre de Décision et KNN) sur ces trois plis, en utilisant le score R2 comme métrique d'évaluation.Résultats : J'ai calculé et affiché la moyenne des scores R2 pour chaque modèle. Cette moyenne représente la performance généralisée de chaque algorithme. C'est le résultat final qui me permet de déterminer quel modèle est le plus performant pour prédire les prix des véhicules et de justifier mon choix final dans le compte rendu.
 
-## **Conclusion**
+## 5. Conclusion
 
 Nous avons restructuré et expliqué de manière détaillée votre notebook
 d'analyse automobile. Chaque étape de préparation des données a été
