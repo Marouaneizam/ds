@@ -142,8 +142,7 @@ df.describe()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J’utilise df.describe() pour obtenir les statistiques principales de mes variables numériques : moyenne, minimum, maximum, écart-type, quartiles…
 
 ### 💻 Cellule de Code 9
 
