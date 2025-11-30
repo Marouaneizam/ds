@@ -482,11 +482,6 @@ regression_model = LinearRegression()
 regression_model.fit(X_train_encoded, y_train)
 ```
 
-#### 🧠 Explication du code
-
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
-
 ### 💻 Cellule de Code 32
 
 ``` python
@@ -494,11 +489,6 @@ données.
 y_lr_pred= regression_model.predict(X_test_encoded)
 y_lr_pred
 ```
-
-#### 🧠 Explication du code
-
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
 
 ### 💻 Cellule de Code 33
 
@@ -517,10 +507,21 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
 print(f"R-squared (R2): {r2:.2f}")
 ```
 
-#### 🧠 Explication du code
+#### 🧠 Explication du code 31/32/33
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai abordé l'étape cruciale de la modélisation par Régression Linéaire, en commençant par le prétraitement des variables catégorielles.
+
+Encodage (One-Hot Encoding) : J'ai utilisé pd.get_dummies() sur mes variables catégorielles (Power_Category et Kilometers_Category) pour les convertir en un format numérique compréhensible par mon modèle. J'ai veillé à utiliser drop_first=True pour éviter la multicolinéarité.
+
+Alignement des Jeux de Données : J'ai aligné mes jeux d'entraînement et de test (X_train_encoded et X_test_encoded) pour m'assurer qu'ils possèdent exactement les mêmes colonnes après l'encodage, remplissant les valeurs manquantes par 0 si nécessaire.
+
+Entraînement du Modèle : J'ai ensuite sélectionné et entraîné mon modèle de Régression Linéaire (LinearRegression) sur mes données d'entraînement encodées.
+
+Prédiction et Évaluation : J'ai utilisé le modèle entraîné pour effectuer des prédictions (y_lr_pred) sur le jeu de test. Enfin, j'ai évalué la performance de ce modèle en calculant les métriques clés de régression :
+
+L'Erreur Absolue Moyenne (MAE) et l'Erreur Quadratique Moyenne (MSE/RMSE) mesurent l'écart moyen entre mes prédictions et les vrais prix.
+
+Le coefficient R-carré (R2), ma métrique principale, indique la proportion de la variance du prix que mon modèle parvient à expliquer. Un R2 proche de 1 signifie que mon modèle est très performant.
 
 ### 💻 Cellule de Code 34
 
