@@ -219,8 +219,7 @@ print(f"Cars with Price < {price_limit}: {cheaper_cars}")
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai souhaité effectuer une analyse de l'asymétrie de ma variable cible en définissant un seuil de prix à 60 000 USD. Cette démarche m'a permis de distinguer clairement les véhicules considérés comme coûteux de ceux qui sont plus abordables dans mon jeu de données.
 
 ### 💻 Cellule de Code 14
 
@@ -232,8 +231,7 @@ def plot(col, df=df):
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai créé ma propre fonction Python nommée plot dans le but d'automatiser et de simplifier mes analyses de données exploratoires (EDA). Cette fonction me permet de regrouper mes données par n'importe quelle colonne catégorielle spécifiée (col) et de calculer la moyenne du prix en USD (Price_USD) pour chaque catégorie. En retournant directement un diagramme à barres, ma fonction me fait gagner du temps en visualisant instantanément l'impact de chaque caractéristique (marque, couleur, type de moteur, etc.) sur le prix moyen des véhicules.
 
 ### 💻 Cellule de Code 15
 
@@ -245,8 +243,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai immédiatement utilisé ma fonction personnalisée plot pour réaliser une analyse rapide de l'impact de la marque sur le prix moyen. En appelant plot('Brand'), je demande à mon système de calculer et d'afficher le prix moyen en USD pour chaque marque de voiture présente dans mon jeu de données.
+
+<img src="G2.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 16
 
@@ -258,8 +257,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+En réutilisant ma fonction plot, j'ai spécifiquement analysé la relation entre le prix moyen du véhicule et son année de modèle (Model_Year). Ce graphique me permet d'observer l'évolution du prix des voitures en fonction de leur ancienneté.
+
+<img src="G3.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 17
 
@@ -271,8 +271,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai poursuivi mon analyse exploratoire en utilisant à nouveau ma fonction plot pour examiner l'influence du type de carburant (Fuel_Type) sur le prix moyen des véhicules. L'affichage de ce diagramme à barres est important car il met en lumière les différences de valeur entre les voitures fonctionnant à l'essence, au diesel, ou avec des carburants alternatifs (comme l'électrique ou l'hybride).
+
+<img src="G4.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 18
 
@@ -284,8 +285,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai ciblé la variable type de transmission (Transmission) dans ma dernière analyse avec ma fonction plot. Ce graphique à barres me permet de comparer le prix moyen des véhicules équipés d'une transmission automatique par rapport à ceux ayant une transmission manuelle.
+
+<img src="G5.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 19
 
@@ -302,8 +304,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai effectué une étape de catégorisation sur ma variable continue Max_Power_bhp (puissance maximale), car cette transformation facilite l'analyse et la modélisation. J'ai défini trois groupes de puissance (Faible, Moyenne, Élevée) en utilisant des bornes (bins) spécifiques. J'ai ensuite appliqué ma fonction plot sur cette nouvelle variable catégorielle (Power_Category).
+
+<img src="G6.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 20
 
@@ -315,8 +318,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+En utilisant ma fonction plot, j'ai ciblé la variable Seats pour analyser son effet sur le prix moyen.
+
+<img src="G7.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 21
 
@@ -333,8 +337,9 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+Après avoir analysé la puissance, j'ai procédé à la catégorisation de la variable continue Kilometers_Driven (kilomètres parcourus). J'ai créé trois groupes (Faible, Moyen, Élevé) en définissant de nouvelles bornes (bins) adaptées à mon jeu de données pour mieux segmenter l'usure des véhicules. En appliquant ma fonction plot à cette nouvelle variable catégorielle, je peux visualiser clairement comment le niveau de kilométrage influence de manière inversement proportionnelle le prix moyen. Cette étape est fondamentale pour confirmer l'impact de l'usure sur la dépréciation.
+
+<img src="G8.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 22
 
