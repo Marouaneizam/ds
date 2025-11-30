@@ -351,8 +351,7 @@ df_new
 
 #### 🧠 Explication du code
 
-Cette opération calcule la matrice de corrélation afin d'identifier les
-relations entre variables.
+J'ai entamé la phase de préparation de mes données pour la modélisation en décidant de supprimer certaines colonnes de mon jeu de données initial. J'ai choisi d'éliminer Car_ID, Brand, Transmission, et Fuel_Type car, selon mon analyse de corrélation et mes graphiques exploratoires précédents, ces variables présentaient la plus faible corrélation ou le moins de valeur ajoutée pour la prédiction du Price_USD.
 
 ### 💻 Cellule de Code 23
 
@@ -366,8 +365,7 @@ cn
 
 #### 🧠 Explication du code
 
-Cette opération calcule la matrice de corrélation afin d'identifier les
-relations entre variables.
+Pour avancer dans mon analyse, j'ai calculé la matrice de corrélation entre toutes les variables numériques restantes de mon jeu de données (df_new). J'ai d'abord supprimé les colonnes Power_Category et Kilometers_Category car elles sont catégorielles et non adaptées au calcul direct du coefficient de corrélation de Pearson que j'utilise.
 
 ### 💻 Cellule de Code 24
 
@@ -382,8 +380,15 @@ plt.show()
 
 #### 🧠 Explication du code
 
-Cette opération calcule la matrice de corrélation afin d'identifier les
-relations entre variables.
+Pour présenter les résultats de mon analyse de corrélation de façon claire et intuitive, j'ai généré une carte de chaleur (heatmap) à l'aide de Seaborn. J'ai utilisé ma matrice de corrélation (cn) comme donnée source. Ce graphique est essentiel car il me permet de visualiser immédiatement l'intensité des corrélations :
+
+Les couleurs claires/rouges indiquent une corrélation positive forte (les deux variables augmentent ensemble).
+
+Les couleurs foncées/bleues indiquent une corrélation négative forte (l'une augmente quand l'autre diminue).
+
+De plus, la fonction annot=True m'a permis d'afficher les valeurs numériques précises des coefficients de corrélation sur chaque cellule, ce qui est crucial pour la validation quantitative de mes hypothèses avant la modélisation.
+
+<img src="G9.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 25
 
@@ -395,8 +400,9 @@ sns.heatmap(kot, cmap="Purples")
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+Après avoir généré ma carte de chaleur complète, j'ai voulu me concentrer uniquement sur les corrélations les plus fortes. J'ai donc créé un nouvel objet, kot, qui isole dans ma matrice de corrélation (cn) toutes les paires de variables présentant un coefficient de corrélation supérieur ou égal à 0,40 (en valeur absolue). J'ai ensuite visualisé ce sous-ensemble dans une seconde carte de chaleur plus épurée. Cette démarche est cruciale car elle me permet de mettre en évidence les facteurs les plus déterminants pour la prédiction du prix, facilitant ainsi la sélection finale des variables d'entrée pour mon modèle d'apprentissage automatique.
+
+<img src="G10.png" alt="Alt Text" width="1000" height="600" style="display: block; margin: 0 auto;">
 
 ### 💻 Cellule de Code 26
 
