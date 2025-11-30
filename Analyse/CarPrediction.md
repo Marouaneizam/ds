@@ -24,10 +24,10 @@ tout pour la modélisation.
 ### 1.  **Introduction générale** -- Présentation du thème et du contexte
 ### 2.  **Description du notebook** -- Structure et objectifs
 ### 3.  **Analyse et préparation des données**
-    #### Chargement du dataset
-    #### Nettoyage et traitement des valeurs manquantes
-    #### Encodage des variables catégorielles
-    #### Analyse exploratoire : distributions, corrélations
+    - Chargement du dataset
+    - Nettoyage et traitement des valeurs manquantes
+    - Encodage des variables catégorielles
+    - Analyse exploratoire : distributions, corrélations
 ### 4.  **Explication détaillée de chaque cellule de code**
 ### 5.  **Conclusion** -- Synthèse de l'analyse et implications
 
