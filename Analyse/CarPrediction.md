@@ -23,11 +23,11 @@ tout pour la modélisation.
 
 * [1. Introduction](#1-introduction) -- Présentation du thème et du contexte
 * [2. Description du notebook](#2-description-du-notebook) -- Structure et objectifs
-* [3. Préparation de Environnement et Chargement des Données](#3-préparation-de-environnement-et-chargement-des-données)
+* [3. Preparation de Environnement et Chargement des Données](#3-preparation-de-environnement-et-chargement-des-donnees)
      * [3.1. Importation des bibliotheques](#31-importation-des-bibliotheques)
      * [3.2. Chargement du dataset](#32-chargement-du-dataset)
      * [3.3. Inspection initiale](#33-inspection-initiale)
-     * [3.4. Verification et suppression des doublons et valeurs manquantes](34-verification-et-suppression-des-doublons-et-valeurs-manquantes)
+     * [3.4. Verification des doublons et valeurs manquantes](34-verification-des-doublons-et-valeurs-manquantes)
       
 * [4. Preparation et Nettoyage des Donnees](#4-preparation-et-nettoyage-des-donnees)
 * [5. Modelisation](#5-modelisation)
@@ -97,7 +97,7 @@ df.shape
 
 J’utilise df.shape pour connaître le nombre de lignes et de colonnes dans mon dataset.
 
-### 3.4. Verification et suppression des doublons et valeurs manquantes
+### 3.4. Verification des doublons et valeurs manquantes
 ### 💻 Cellule de Code 4
 
 ``` python
