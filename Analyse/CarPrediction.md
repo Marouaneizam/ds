@@ -4,7 +4,7 @@
 
 # <p align="center">Marouane IZAM 23009631 </p>
 
-<img src="MI.png" alt="A flowchart illustrating the core project workflow" width="400" style="display: block; margin: 0 auto;">
+<img src="MI.jpeg" alt="A flowchart illustrating the core project workflow" width="400" style="display: block; margin: 0 auto;">
 
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
