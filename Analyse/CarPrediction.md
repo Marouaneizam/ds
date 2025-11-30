@@ -4,7 +4,7 @@
 
 # <p align="center">Marouane IZAM 23009631 </p>
 
-<img src="MI.jpeg" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;">
+<p align="center"><img src="MI.jpeg" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;"> </p>
 
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
