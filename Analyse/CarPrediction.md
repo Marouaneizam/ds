@@ -1,5 +1,5 @@
 # <p align="center">École Nationale de Commerce et de Gestion (ENCG)-S7 </p>
-<img src="ENCGS.png" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;">
+## <img src="ENCGS.png" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;">
 
 # <p align="center">Marouane IZAM 23009631 CAC2 </p>
 <p align="center"><img src="MI.jpeg" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;"> </p>
