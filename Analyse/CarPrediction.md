@@ -6,6 +6,8 @@
 
 <p align="center">img src="MI.jpeg" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;" </p>
 
+<img src="MI.jpeg" alt="a guy in a black shirt" style="display: block; margin: 0 auto;">
+
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
 ## 1. Introduction
