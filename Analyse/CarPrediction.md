@@ -23,7 +23,7 @@ tout pour la modélisation.
 
 * [1. Introduction](#1-introduction) -- Présentation du thème et du contexte
 * [2. Description du notebook](#2-description-du-notebook) -- Structure et objectifs
-* [3. Préparation de l’Environnement et Chargement des Données](#3-préparation-de-l’environnement-et-chargement-des-données)
+* [3. Préparation de l’Environnement et Chargement des Données](#3-préparation-de-l-environnement-et-chargement-des-données)
      * [3.1. Importation des bibliothèques](#31-importation-des-bibliotheques)
      * [3.2. Chargement du dataset](#32-chargement-du-dataset)
      * [3.3. Inspection initiale](#33-inspection-initiale)
