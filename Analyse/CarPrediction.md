@@ -6,7 +6,7 @@
 
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
-## **Introduction Générale**
+## 1. Introduction
 
 Dans ce document, nous présentons une analyse complète d'un jeu de
 données automobile et le processus de préparation des données en vue de
