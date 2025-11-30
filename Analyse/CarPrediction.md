@@ -29,9 +29,9 @@ tout pour la modélisation.
      * [3.3. Inspection initiale](#33-inspection-initiale)
      * [3.4. Verification des doublons et valeurs manquantes](#34-verification-des-doublons-et-valeurs-manquantes)
       
-* [4. Preparation et Nettoyage des Donnees](#4-preparation-et-nettoyage-des-donnees)
+* [4. Preparation et nettoyage des donnees](#4-preparation-et-nettoyage-des-donnees)
 * [5. Modelisation](#5-modelisation)
-* [6.Validation et Interpretation](#6-Validation-et-interpretation)
+* [6.Validation et interpretation](#6-Validation-et-interpretation)
 * [7. Conclusion](#7-conclusion) -- Synthèse de l'analyse et implications
 
 ## 2. Description du notebook
@@ -154,7 +154,9 @@ la présence ou non de valeurs manquantes.
 ``` python
 df.describe()
 ```
-## 4. Preparation et Nettoyage des Donnees
+[Retour au Sommaire](#sommaire)
+
+## 4. Preparation et nettoyage des donnees
 
 #### 🧠 Explication du code
 
@@ -431,6 +433,10 @@ df_new
 
 J'ai procédé à la création d'une nouvelle variable d'interaction nommée Mileage_Year_Interaction. Cette étape d'ingénierie de caractéristiques (Feature Engineering) est cruciale. Elle consiste à multiplier le kilométrage par litre (Mileage_kmpl) par l'année du modèle (Model_Year). Mon intention est de capturer une relation non-linéaire entre l'efficacité du carburant et l'âge de la voiture.
 
+[Retour au Sommaire](#sommaire)
+
+## 5. Modelisation
+
 ### 💻 Cellule de Code 27
 
 ``` python
@@ -639,6 +645,10 @@ Préparation : J'ai réutilisé les jeux de données d'entraînement et de test 
 Modèle K-NN : J'ai sélectionné mon modèle K-NN avec un paramètre de 5 voisins (n_neighbors=5). Ce modèle prédit le prix d'une voiture en se basant sur la moyenne des prix de ses cinq voitures les plus similaires dans l'espace des caractéristiques.
 
 Évaluation : Après l'entraînement et la prédiction (y_knn_pred), j'ai calculé les mêmes métriques d'évaluation (MAE, RMSE, R2). La performance de ce modèle non-paramétrique est cruciale, car elle me permet de comparer l'efficacité d'une approche basée sur la similitude locale avec les approches globales (Régression Linéaire) et basées sur des règles (Arbre de Décision). Le R2 final me donne la dernière information nécessaire pour sélectionner le modèle optimal pour la prédiction des prix.
+
+[Retour au Sommaire](#sommaire)
+
+## 6.Validation et interpretation
 
 ### 💻 Cellule de Code 40
 
