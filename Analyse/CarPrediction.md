@@ -541,10 +541,6 @@ dt_model = DecisionTreeRegressor(random_state=0)
 dt_model.fit(X_train_encoded_dt, y_train)
 ```
 
-#### 🧠 Explication du code
-
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
 
 ### 💻 Cellule de Code 35
 
@@ -554,10 +550,6 @@ y_dt_pred= dt_model.predict(X_test_encoded_dt)
 y_dt_pred
 ```
 
-#### 🧠 Explication du code
-
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
 
 ### 💻 Cellule de Code 36
 
@@ -576,10 +568,13 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
 print(f"R-squared (R2): {r2:.2f}")
 ```
 
-#### 🧠 Explication du code
+#### 🧠 Explication du code 34/35/36
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai appliqué la même méthodologie de prétraitement que précédemment : j'ai effectué l'encodage binaire (pd.get_dummies) de mes variables catégorielles (Power_Category et Kilometers_Category) et j'ai veillé à l'alignement strict des colonnes entre mes jeux d'entraînement et de test.
+
+Choix du Modèle : J'ai ensuite sélectionné le modèle DecisionTreeRegressor pour explorer les relations non-linéaires dans mes données. L'arbre de décision me permet de segmenter mes données en fonction de règles simples et d'éviter les hypothèses de linéarité.
+
+Entraînement et Évaluation : J'ai entraîné le modèle (dt_model.fit) et j'ai généré les prédictions (y_dt_pred). J'ai calculé les mêmes métriques (MAE, RMSE, R2) afin que je puisse comparer directement la performance de cet Arbre de Décision avec celle de mon modèle de Régression Linéaire et déterminer lequel est le plus adapté à la prédiction des prix de voitures.
 
 ### 💻 Cellule de Code 37
 
@@ -591,10 +586,7 @@ knn_model= KNeighborsRegressor(n_neighbors=5)
 knn_model.fit(X_train_encoded_dt, y_train)
 ```
 
-#### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
 
 ### 💻 Cellule de Code 38
 
@@ -604,10 +596,6 @@ y_knn_pred= knn_model.predict(X_test_encoded_dt)
 y_knn_pred
 ```
 
-#### 🧠 Explication du code
-
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
 
 ### 💻 Cellule de Code 39
 
@@ -626,10 +614,15 @@ print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
 print(f"R-squared (R2): {r2:.2f}")
 ```
 
-#### 🧠 Explication du code
+#### 🧠 Explication du code 37/38/39
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai complété ma série de modélisations en entraînant un modèle de Régression K-plus-proches voisins (K-NN).
+
+Préparation : J'ai réutilisé les jeux de données d'entraînement et de test qui ont déjà été préparés et encodés (X_train_encoded_dt, X_test_encoded_dt), assurant la cohérence avec mes modèles précédents.
+
+Modèle K-NN : J'ai sélectionné mon modèle K-NN avec un paramètre de 5 voisins (n_neighbors=5). Ce modèle prédit le prix d'une voiture en se basant sur la moyenne des prix de ses cinq voitures les plus similaires dans l'espace des caractéristiques.
+
+Évaluation : Après l'entraînement et la prédiction (y_knn_pred), j'ai calculé les mêmes métriques d'évaluation (MAE, RMSE, R2). La performance de ce modèle non-paramétrique est cruciale, car elle me permet de comparer l'efficacité d'une approche basée sur la similitude locale avec les approches globales (Régression Linéaire) et basées sur des règles (Arbre de Décision). Le R2 final me donne la dernière information nécessaire pour sélectionner le modèle optimal pour la prédiction des prix.
 
 ### 💻 Cellule de Code 40
 
