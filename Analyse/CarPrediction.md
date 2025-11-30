@@ -6,7 +6,7 @@
 
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
-## Partie I. Introduction
+## P. Introduction
 
 Dans ce document, nous présentons une analyse complète d'un jeu de
 données automobile et le processus de préparation des données en vue de
@@ -21,7 +21,7 @@ tout pour la modélisation.
 
 ## Sommaire
 
-* [Partie I. Introduction](#I-introduction) -- Présentation du thème et du contexte
+* [P. Introduction](#1-introduction) -- Présentation du thème et du contexte
 * [2. Description du notebook](#2-description-du-notebook) -- Structure et objectifs
 * [3. Analyse et préparation des données](#3-analyse-etpréparation-des-données)
     - Chargement du dataset
