@@ -2,6 +2,8 @@
 
 <img src="ENCGS.png" alt="Descriptive Alt Text" style="display: block; margin: 0 auto;">
 
+<p align="center">Marouane IZAM 23009631</p>
+
 # **Projet : Analyse de Données et Modélisation pour la Prédiction Automobile**
 
 ## **Introduction Générale**
