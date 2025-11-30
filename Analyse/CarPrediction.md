@@ -22,14 +22,14 @@ tout pour la modélisation.
 ## **Sommaire Détaillé**
 
 * [1. Introduction](#1-introduction) -- Présentation du thème et du contexte
-* [1. Description du notebook](#2-description_du_notebook) -- Structure et objectifs
-* [1. Analyse et préparation des données](#3-analyse_et_préparation_des_données)
+* [2. Description du notebook](#2-description_du_notebook) -- Structure et objectifs
+* [3. Analyse et préparation des données](#3-analyse_et_préparation_des_données)
     - Chargement du dataset
     - Nettoyage et traitement des valeurs manquantes
     - Encodage des variables catégorielles
     - Analyse exploratoire : distributions, corrélations
-### 4.  **Explication détaillée de chaque cellule de code**
-### 5.  **Conclusion** -- Synthèse de l'analyse et implications
+* [4. Explication détaillée de chaque cellule de code](#4-explication_détaillée_de_chaque_cellule_de_code)
+* [5. Conclusion](#5-conclusion) -- Synthèse de l'analyse et implications
 
 ## **Description du Notebook**
 
