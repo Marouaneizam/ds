@@ -31,7 +31,7 @@ tout pour la modélisation.
       
 * [4. Preparation et nettoyage des donnees](#4-preparation-et-nettoyage-des-donnees)
 * [5. Modelisation](#5-modelisation)
-* [6.Validation et interpretation](#6-Validation-et-interpretation)
+* [6. Validation et interpretation](#6-Validation-et-interpretation)
 * [7. Conclusion](#7-conclusion) -- Synthèse de l'analyse et implications
 
 ## 2. Description du notebook
@@ -648,7 +648,7 @@ Modèle K-NN : J'ai sélectionné mon modèle K-NN avec un paramètre de 5 voisi
 
 [Retour au Sommaire](#sommaire)
 
-## 6.Validation et interpretation
+## 6. Validation et interpretation
 
 ### 💻 Cellule de Code 40
 
