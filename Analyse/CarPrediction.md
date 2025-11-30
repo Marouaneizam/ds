@@ -6,7 +6,7 @@
 
 # <p align="center">**Projet : Analyse de Données et Modélisation pour la Prédiction Automobile** </p>
 
-## P. Introduction
+## 1. Introduction
 
 Dans ce document, nous présentons une analyse complète d'un jeu de
 données automobile et le processus de préparation des données en vue de
@@ -21,26 +21,30 @@ tout pour la modélisation.
 
 ## Sommaire
 
-* [P. Introduction](#1-introduction) -- Présentation du thème et du contexte
+* [1. Introduction](#1-introduction) -- Présentation du thème et du contexte
 * [2. Description du notebook](#2-description-du-notebook) -- Structure et objectifs
-* [3. Analyse et préparation des données](#3-analyse-etpréparation-des-données)
-    - Chargement du dataset
-    - Nettoyage et traitement des valeurs manquantes
-    - Encodage des variables catégorielles
-    - Analyse exploratoire : distributions, corrélations
-* [4. Explication détaillée de chaque cellule de code](#4-explication-détaillée-de-chaque-cellule-de-code)
-* [5. Conclusion](#5-conclusion) -- Synthèse de l'analyse et implications
+* [3. Préparation de l’Environnement et Chargement des Données](#3-préparation-de-l’environnement-et-chargement-des-données)
+     * [3.1. Importation des bibliothèques](#31-importation-des-bibliotheques)
+     * [3.2. Chargement du dataset](#32-chargement-du-dataset)
+     * [3.3. Inspection initiale](#33-inspection-initiale)
+     * [3.4. Vérification et suppression des doublons et valeurs manquantes](34-verification-et-suppression-des-doublons-et-valeurs-manquantes)
+      
+* [4. Préparation et Nettoyage des Données](#4-préparation-et-nettoyage-des-données)
+* [5. Modélisation](#5-modélisation)
+* [6.Validation et Interpretation](#6-Validation-et-interpretation)
+* [7. Conclusion](#7-conclusion) -- Synthèse de l'analyse et implications
 
 ## 2. Description du notebook
 
-Le notebook contient une succession de cellules de code et de texte
-visant à préparer les données étape par étape. Chaque cellule est
-reproduite ci‑dessous accompagnée d'une explication complète.
+Le notebook présente une série organisée de cellules de code et de texte dont l’objectif est de préparer, analyser et modéliser mon jeu de données automobile. Chaque cellule réalise une étape précise du processus : importation des bibliothèques, chargement des données, vérification de leur qualité, nettoyage (doublons, valeurs manquantes), encodage des variables catégorielles, exploration visuelle, création de nouvelles variables et sélection des features.
+
+Une fois les données prêtes, j’entraîne plusieurs modèles de régression (régression linéaire, arbre de décision, KNN), j’évalue leurs performances à l’aide de métriques adaptées, puis j’utilise la validation croisée pour comparer les modèles de manière fiable. Le notebook progresse donc étape par étape, et chaque cellule est accompagnée d’une explication permettant de comprendre clairement son rôle dans la construction du modèle final de prédiction des prix automobiles.
 
 [Retour au Sommaire](#sommaire)
 
-## 4. Explication détaillée de chaque cellule de code
+## 3. Préparation de l’Environnement et Chargement des Données
 
+### 3.1. Importation des bibliothèques
 ### 💻 Cellule de Code 1
 
 ``` python
@@ -69,6 +73,7 @@ warnings.filterwarnings("ignore") : j’utilise cette instruction pour masquer l
 
 Ainsi, ce bloc initialise mon environnement d’analyse, indispensable pour la préparation de mes données et la construction de mon futur modèle de prédiction automobile.
 
+### 3.2. Chargement du dataset
 ### 💻 Cellule de Code 2
 
 ``` python
@@ -81,6 +86,7 @@ df
 J’utilise pd.read_csv() pour charger mon fichier contenant les données automobiles.
 La variable df devient mon tableau principal, et l’afficher me permet de voir immédiatement la structure et le contenu de mon dataset.
 
+### 3.3. Inspection initiale
 ### 💻 Cellule de Code 3
 
 ``` python
@@ -91,6 +97,7 @@ df.shape
 
 J’utilise df.shape pour connaître le nombre de lignes et de colonnes dans mon dataset.
 
+### 3.4. Vérification et suppression des doublons et valeurs manquantes
 ### 💻 Cellule de Code 4
 
 ``` python
@@ -669,7 +676,7 @@ J'ai conclu ma phase de modélisation en utilisant la technique robuste de la va
 
 [Retour au Sommaire](#sommaire)
 
-## 5. Conclusion
+## 7. Conclusion
 
 Nous avons restructuré et expliqué de manière détaillée votre notebook
 d'analyse automobile. Chaque étape de préparation des données a été
