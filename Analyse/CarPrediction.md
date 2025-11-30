@@ -21,7 +21,7 @@ tout pour la modélisation.
 
 ## Sommaire
 
-* [1. Introduction](#1-introduction) -- Présentation du thème et du contexte
+* [Partie I. Introduction](#I-introduction) -- Présentation du thème et du contexte
 * [2. Description du notebook](#2-description-du-notebook) -- Structure et objectifs
 * [3. Analyse et préparation des données](#3-analyse-etpréparation-des-données)
     - Chargement du dataset
