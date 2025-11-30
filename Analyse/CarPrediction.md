@@ -413,8 +413,7 @@ df_new
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai procédé à la création d'une nouvelle variable d'interaction nommée Mileage_Year_Interaction. Cette étape d'ingénierie de caractéristiques (Feature Engineering) est cruciale. Elle consiste à multiplier le kilométrage par litre (Mileage_kmpl) par l'année du modèle (Model_Year). Mon intention est de capturer une relation non-linéaire entre l'efficacité du carburant et l'âge de la voiture.
 
 ### 💻 Cellule de Code 27
 
@@ -426,8 +425,7 @@ y = df_new['Price_USD']
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+J'ai maintenant procédé à l'étape fondamentale de la séparation de mes variables. J'ai désigné la colonne Price_USD comme ma variable dépendante (y), c'est-à-dire la valeur que je cherche à prédire. Toutes les autres colonnes restantes dans mon DataFrame (df_new) — incluant celles que j'ai sélectionnées et la nouvelle variable d'interaction — constituent mes variables indépendantes (X), qui sont les caractéristiques que mon modèle utilisera pour faire cette prédiction. Cette distinction est cruciale pour l'entraînement de tout algorithme d'apprentissage supervisé.
 
 ### 💻 Cellule de Code 28
 
@@ -440,8 +438,7 @@ données.
 
 #### 🧠 Explication du code
 
-Cette cellule contribue au flux général d'analyse ou de préparation des
-données.
+Ce commentaire est une note critique que j'ai insérée pour justifier mon approche. J'y explique que je n'ai pas eu recours à la technique de suréchantillonnage ADASYN (ou à toute autre méthode similaire) parce que mon projet est une tâche de régression — je prédis une valeur continue (Price_USD).
 
 ### 💻 Cellule de Code 29
 
